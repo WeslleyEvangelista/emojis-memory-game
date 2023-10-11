@@ -63,7 +63,9 @@ function checkMatch(){
     openCards = [];
 
     if(document.querySelectorAll(".boxMatch").length === emojis.length){
-        alert("You Win !");
-        window.location.reload();
+        document.querySelector("h2").innerHTML="You Win !";
+        setTimeout(() => {
+            window.location.reload()
+        }, 3000);
     }
 }
