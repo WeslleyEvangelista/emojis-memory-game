@@ -43,7 +43,7 @@ function handleClick(){
 };
 
 function playSound(audioName){
-    let audio = new Audio(`./src/audios/${audioName}.m4a`);
+    let audio = new Audio(`https://weslleyevangelista.github.io/emojis-memory-game/src/audios/${audioName}.m4a`);
     audio.volume = 0.3;
     audio.play();
 }
